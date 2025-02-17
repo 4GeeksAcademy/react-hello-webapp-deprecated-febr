@@ -1,3 +1,76 @@
 /* 
     General Styles
 */
+div {
+  background-color: #cccfcc;
+}
+
+form {
+  border: 0px solid gray;
+  text-align: left;
+  padding: 20px;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: gray;
+  color: gray;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #4f524f;
+}
+
+.a {
+  background: gray;
+  width: 100%;
+  border-color: gray;
+}
+
+.p {
+  padding: 0.5px;
+  color: gray;
+}
+
+.save {
+  background-color: gray;
+  width: 100%;
+}
+
+.link {
+  color: red;
+}
+
+.button {
+  background-color: gray;
+}
+
+.all {
+  background-color: #d9e0d9;
+}
+
+.edit {
+  width: 100px;
+  height: 100px;
+}
+
+.h1 {
+  background-color: #d9e0d9;
+  border: 1px solid #d9e0d9;
+}
